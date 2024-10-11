@@ -12,10 +12,13 @@ const pages = {
             <div class="about-description">
                 <p>Welcome to my personal website! ...</p>
                 <p>It's All Too Well season...</p>
-                <div class="embed-container">
-                    <iframe 
-                    src="https://www.youtube.com/embed/tollGa3S0o8" 
-                    frameborder="0" allowfullscreen></iframe>
+                <div class="video-container">
+                    <div class="embed-container">
+                        <iframe 
+                        src="https://www.youtube.com/embed/tollGa3S0o8" 
+                        frameborder="0" 
+                        allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </section>
