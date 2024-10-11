@@ -1,6 +1,11 @@
 /* 全局样式 */
+@font-face {
+    font-family: 'Computer Modern';
+    src: url('https://cdn.jsdelivr.net/gh/CTAN/Computer-Modern@latest/fonts/ComputerModern/ComputerModern.ttf') format('truetype');
+}
+
 body {
-    font-family: 'Garamond', serif;
+    font-family: 'Computer Modern', serif;
     margin: 0;
     padding: 0;
     background-color: #ffffff;
