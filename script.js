@@ -7,7 +7,7 @@ const pages = {
             <div class="about-header">
                 <h1>Dat Ta</h1>
                 <p>Department of Chinese Language and Literature, Peking University</p>
-                <p>tavandat@pku.edu.cn</p>
+                <p>tavandat 'at' pku.edu.cn</p>
             </div>
             <div class="about-description">
                 <p>Welcome to my personal website! ...</p>
