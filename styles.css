@@ -200,6 +200,7 @@ nav ul li a:hover {
 .video-container {
     display: flex;
     justify-content: center; /* 水平居中 */
+    margin: 30px 0; /* 上下距离 30px，底部距离 footer 100px */
 }
 
 .embed-container {
@@ -207,9 +208,8 @@ nav ul li a:hover {
     padding-bottom: 56.25%; /* 16:9 的比例 */
     height: 0;
     overflow: hidden;
-    max-width: 100%; /* 确保宽度最大为 100% */
-    width: 800px; /* 根据需要设置宽度 */
-    height: 250px;
+    max-width: 25%; /* 容器宽度为屏幕的 1/4 */
+    width: 100%; /* 容器宽度设置为 100% */
 }
 
 .embed-container iframe,
