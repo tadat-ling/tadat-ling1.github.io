@@ -96,6 +96,7 @@ const pages = {
             </div>
         </div>
     </section>
+    `
 };
 
 // 获取内容容器
