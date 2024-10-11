@@ -1,9 +1,4 @@
 /* 全局样式 */
-@font-face {
-    font-family: 'Computer Modern';
-    src: url('https://cdn.jsdelivr.net/gh/CTAN/Computer-Modern@latest/fonts/ComputerModern/ComputerModern.ttf') format('truetype');
-}
-
 body {
     font-family: 'Computer Modern', serif;
     margin: 0;
@@ -28,14 +23,14 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 10px;
     padding: 10px; /* 为每个列表项添加内边距 */
 }
 
 nav ul li a {
     color: #ffffff; /* 白色文本 */
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px 10px; /* 为链接添加内边距 */
     transition: box-shadow 0.3s ease; /* 添加过渡效果 */
 }
