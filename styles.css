@@ -30,7 +30,6 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #f6f6f6;
-    color: #ffffff; /* 白色文本 */
     font-size: 18px;
     padding: 18px 18px; /* 为链接添加内边距 */
     border-radius: 8px; /* 添加圆角 */
