@@ -84,8 +84,8 @@ nav ul li a:hover {
 }
 
 /* 内容部分 */
-.about-description, .education-description, .public-description, .peki-description, .life-description, .ling-description {
-    text-align: justify;
+.about-description, .education-description, .peki-description, .life-description, .ling-description {
+    text-align: center;
     color: #2c2c2c; /* 深灰色文本 */
     padding: 20px 20px 100px; /* 添加空间 */
     background-color: #ffffff;
@@ -97,10 +97,16 @@ nav ul li a:hover {
     margin: 8px 10px 0;
 }
 
-/* Daily Life 特殊样式 */
-.life-description {
-    text-indent: 30px; /* Thụt đầu dòng 30px */
+/* 特殊样式 */
+.public-description {
+    text-align: justify;
+    color: #2c2c2c; /* 深灰色文本 */
+    padding: 20px 20px 100px; /* 添加空间 */
+    background-color: #ffffff;
 }
+/* .life-description {
+    text-indent: 30px; /* Thụt đầu dòng 30px */
+} */
 
 .life-description h3 {
     color: #2c2c2c; /* 深灰色文本 */
