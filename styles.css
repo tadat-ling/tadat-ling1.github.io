@@ -126,34 +126,54 @@ nav ul li a:hover {
 
 /* 自我介绍部分 */
 .about-description {
-    text-align: center;
+    text-align: left;
     color: #2c2c2c; /* 深灰色文本 */
     padding: 20px;
     background-color: #ffffff;
+}
+.about-description p {
+    color: #2c2c2c; /* 深灰色文本 */
+    font-size: 19px;
+    margin: 8px 10px 0;
 }
 
 /* Education部分 */
 .education-description {
-    text-align: center;
+    text-align: left;
     color: #2c2c2c; /* 深灰色文本 */
     padding: 20px;
     background-color: #ffffff;
+}
+.education-description p {
+    color: #2c2c2c; /* 深灰色文本 */
+    font-size: 19px;
+    margin: 8px 10px 0;
 }
 
 /* My Peki部分 */
 .peki-description {
-    text-align: center;
+    text-align: left;
     color: #2c2c2c; /* 深灰色文本 */
     padding: 20px;
     background-color: #ffffff;
 }
+.peki-description p {
+    color: #2c2c2c; /* 深灰色文本 */
+    font-size: 19px;
+    margin: 8px 10px 0;
+}
 
 /* Daily Life部分 */
 .life-description {
-    text-align: center;
+    text-align: left;
     color: #2c2c2c; /* 深灰色文本 */
     padding: 20px;
     background-color: #ffffff;
+}
+.life-description p {
+    color: #2c2c2c; /* 深灰色文本 */
+    font-size: 19px;
+    margin: 8px 10px 0;
 }
 
 /* 固定页脚样式 */
