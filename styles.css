@@ -109,7 +109,7 @@ nav ul li a:hover {
     margin: 20px 10px; /* Giãn dòng trái, phải */
 }
 /* Publications 特殊样式 */
-.life-description h2 {
+.public-description h3 {
     color: #2c2c2c; /* 深灰色文本 */
     text-align: center;
     font-size: 25px;
