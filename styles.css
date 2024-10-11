@@ -2,7 +2,7 @@ body {
     font-family: 'Garamond', serif; /* 使用 Garamond 字体，并提供 serif 作为备选 */
     margin: 0;
     padding: 0;
-    background-color: #2c2c2c; /* 深灰色，偏亮的黑色 */
+    background-color: #808080; /* 深灰色，偏亮的黑色 */
     color: #ffffff; /* 白色文本 */
 }
 
@@ -11,6 +11,16 @@ header {
     color: #ffffff;
     padding: 20px;
     text-align: center;
+}
+
+footer {
+    position: fixed; /* 固定位置 */
+    bottom: 0; /* 定位到页面底部 */
+    width: 100%; /* 占满整个页面宽度 */
+    background-color: #2c2c2c; /* 深灰色背景 */
+    color: #ffffff; /* 白色文本 */
+    text-align: center; /* 居中对齐 */
+    padding: 10px 0; /* 增加一些内边距 */
 }
 
 h1, h2 {
