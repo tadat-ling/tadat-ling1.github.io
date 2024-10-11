@@ -10,7 +10,7 @@ body {
 /* 导航栏样式 */
 nav {
     background-color: #2c2c2c; /* 深灰色背景 */
-    padding: 15px;
+    padding: 20px;
 }
 
 nav ul {
@@ -36,19 +36,19 @@ nav ul li a {
     background-color: #f6f6f6; /* 浅灰色背景 */
     color: #2c2c2c; /* 深灰色文本 */
     text-align: center;
-    padding: 30px 0;
+    padding: 25px 0;
 }
 
 .about-header h1 {
     color: #2c2c2c; /* 深灰色文本 */
-    font-size: 36px;
+    font-size: 30px;
     margin: 0;
 }
 
 .about-header p {
     color: #2c2c2c; /* 深灰色文本 */
-    font-size: 18px;
-    margin: 20px 0 0;
+    font-size: 15px;
+    margin: 15px 0 0;
 }
 
 
