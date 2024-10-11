@@ -32,7 +32,6 @@ nav ul li a {
     text-decoration: none;
     font-size: 18px;
     padding: 18px 18px; /* 为链接添加内边距 */
-    transition: box-shadow 0.3s ease; /* 添加过渡效果 */
 }
 
 /* 鼠标悬停时的效果 */
