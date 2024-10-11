@@ -75,16 +75,20 @@ const pages = {
                 <button type="submit">Find</button>
             </div>
             <!-- Bắt đầu phần post -->
-            <div class="post">
-                <div class="post-image">
-                    <img src="/Users/xiewenda/Downloads/question-mark.jpg" alt="Post Image 1">
-                </div>
+            <div id="ling-content">
+                <div class="post">
+                    <div class="post-image">
+                        <img src="/Users/xiewenda/Downloads/question-mark.jpg" alt="Mô tả hình ảnh">
+                    </div>
                 <div class="post-content">
-                    <a href="link_to_post1">Title of Post 1</a>
-                    <p>[11/10/2024]</p>
-                    <p>Đoạn trích nội dung đầu tiên của bài viết ...</p>
+                    <a href="linguistics_article1.html" class="post-link">Tựa Đề Bài Viết</a>
+                    <div class="post-meta">
+                        <span class="post-time">Ngày đăng: 12/10/2024</span>
+                    </div>
+                    <p class="post-excerpt">Đây là phần tóm tắt nội dung của bài viết...</p>
                 </div>
             </div>
+        </div>
             <!-- Thêm nhiều post tương tự ở đây -->
             <!-- Cuối cùng thêm thanh phân trang -->
             <div class="pagination">
