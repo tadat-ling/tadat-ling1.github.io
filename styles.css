@@ -183,7 +183,7 @@ nav ul li a:hover {
     text-align: justify;
     color: #2c2c2c; /* 深灰色文本 */
     text-indent: 30px; /* Thụt đầu dòng 30px */
-    padding: 20px 10px 50px; /* Thêm khoảng trống ở đầu, hai bên, cuối nội dung */
+    padding: 20px 10px 100px; /* Thêm khoảng trống ở đầu, hai bên, cuối nội dung */
     background-color: #ffffff;
 }
 .life-description h3 {
