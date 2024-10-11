@@ -209,7 +209,8 @@ nav ul li a:hover {
     height: 0;
     overflow: hidden;
     max-width: 100%; /* 确保宽度最大为 100% */
-    width: 1200px; /* 根据需要设置宽度 */
+    width: 800px; /* 根据需要设置宽度 */
+    height: 450px;
 }
 
 .embed-container iframe,
