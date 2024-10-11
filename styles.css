@@ -194,6 +194,11 @@ nav ul li a:hover {
     padding: 20px;
     background-color: #ffffff;
 }
+.life-description h3 {
+    color: #2c2c2c; /* 深灰色文本 */
+    font-size: 23px;
+    margin: 0;
+}
 .life-description p {
     color: #2c2c2c; /* 深灰色文本 */
     font-size: 19px;
