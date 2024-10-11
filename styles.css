@@ -200,7 +200,7 @@ nav ul li a:hover {
 .video-container {
     display: flex;
     justify-content: center; /* 水平居中 */
-    margin-bottom: 100px; /* 底部距离 footer 100px */
+    margin-bottom: 20px 20px 100px; /* 底部距离 footer 100px */
 }
 
 .embed-container {
@@ -209,7 +209,7 @@ nav ul li a:hover {
     height: 0;
     overflow: hidden;
     max-width: 100%; /* 确保宽度最大为 100% */
-    width: 1600px; /* 根据需要设置宽度，约为正常 YouTube 大小 */
+    width: 1600px; /* 根据需要设置宽度 */
 }
 
 .embed-container iframe,
