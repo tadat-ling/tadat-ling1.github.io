@@ -196,16 +196,32 @@ nav ul li a:hover {
     color: #007bff;
 }
 
-/* Chay video */
+/* YouTube Video */
 .video-container {
-    text-align: center; /* Canh giữa video */
-    margin: 20px 0; /* Khoảng cách trên và dưới video */
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    margin-bottom: 100px; /* 底部距离 footer 100px */
 }
 
-.video-container iframe {
-    max-width: 100%; /* Đảm bảo video responsive */
-    height: auto; /* Chiều cao tự động */
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 的比例 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%; /* 确保宽度最大为 100% */
+    width: 800px; /* 根据需要设置宽度，约为正常 YouTube 大小 */
 }
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 
 /* 固定页脚 */
