@@ -21,8 +21,8 @@ const pages = {
                 <h1>Education</h1>
             </div>
             <div class="education-description">
-                <p>2020-2023: B.A. in Chinese Studies (High-quality Program), Hanoi University (Vietnam)</p>
                 <p>2023-now: M.A. in Linguistics and Applied Linguistics, Peking University (Mainland China)</p>
+                <p>2020-2023: B.A. in Chinese Studies (High-quality Program), Hanoi University (Vietnam)</p>
             </div>
         </section>
     `,
