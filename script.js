@@ -12,9 +12,11 @@ const pages = {
             <div class="about-description">
                 <p>Welcome to my personal website! ...</p>
                 <p>It's All Too Well season...</p>
-                {% raw %} {% include youtube.html id="tollGa3S0o8" %}
-                {% endraw %}
-                {% include youtube.html id="tollGa3S0o8" %}
+                <div class="embed-container">
+                    <iframe 
+                    src="https://www.youtube.com/embed/tollGa3S0o8" 
+                    frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
         </section>
     `,
