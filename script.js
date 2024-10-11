@@ -12,6 +12,9 @@ const pages = {
             <div class="about-description">
                 <p>Welcome to my personal website! ...</p>
                 <p>Coming soon...</p>
+                <div class="video-container">
+                    <iframe width="100%" height="315" src="https://youtu.be/tollGa3S0o8?si=jiWqwIOUk-NJB012" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
         </section>
     `,
