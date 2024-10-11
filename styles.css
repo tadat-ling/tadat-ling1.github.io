@@ -143,7 +143,7 @@ nav ul li a:hover {
 .about-description {
     text-align: left;
     color: #2c2c2c; /* 深灰色文本 */
-    padding: 20px;
+    padding: 20px 10px 100px; /* Thêm khoảng trống ở đầu, hai bên, cuối nội dung */
     background-color: #ffffff;
 }
 .about-description p {
@@ -156,7 +156,7 @@ nav ul li a:hover {
 .education-description {
     text-align: left;
     color: #2c2c2c; /* 深灰色文本 */
-    padding: 20px;
+    padding: 20px 10px 100px; /* Thêm khoảng trống ở đầu, hai bên, cuối nội dung */
     background-color: #ffffff;
 }
 .education-description p {
@@ -169,7 +169,7 @@ nav ul li a:hover {
 .peki-description {
     text-align: left;
     color: #2c2c2c; /* 深灰色文本 */
-    padding: 20px;
+    padding: 20px 10px 100px; /* Thêm khoảng trống ở đầu, hai bên, cuối nội dung */
     background-color: #ffffff;
 }
 .peki-description p {
