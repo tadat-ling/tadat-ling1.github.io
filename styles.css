@@ -205,8 +205,25 @@ nav ul li a:hover {
     margin: 8px 10px 0;
 }
 
-/* 固定页脚样式 */
-footer {
+<style>
+    /* Căn đều đoạn văn và thụt đầu dòng */
+    .justify-indent {
+        text-align: justify;
+        text-indent: 15px; /* Thụt đầu dòng 30px */
+    }
+
+    /* Thêm khoảng cách giữa nội dung và footer */
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* Đảm bảo toàn bộ chiều cao của viewport */
+    }
+
+    main {
+        flex: 1; /* Chiếm không gian còn lại giữa header và footer */
+    }
+
+    footer {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -215,3 +232,8 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+    .life-description {
+        padding-bottom: 50px; /* Thêm khoảng trống giữa nội dung và footer */
+    }
+</style>
