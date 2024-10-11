@@ -13,7 +13,7 @@ const pages = {
                 <p>Welcome to my personal website! ...</p>
                 <p>Coming soon...</p>
                 <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/tollGa3S0o8?si=FFG3la5lrFkIZ3ED" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tollGa3S0o8" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
