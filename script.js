@@ -12,9 +12,9 @@ const pages = {
             <div class="about-description">
                 <p>Welcome to my personal website! ...</p>
                 <p>Coming soon...</p>
-                <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/tollGa3S0o8" frameborder="0" allowfullscreen></iframe>
-                </div>
+                {% raw %} {% include youtube.html id="tollGa3S0o8" %}
+                {% endraw %}
+                {% include youtube.html id="tollGa3S0o8" %}
             </div>
         </section>
     `,
