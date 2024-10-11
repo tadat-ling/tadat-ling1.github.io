@@ -196,6 +196,18 @@ nav ul li a:hover {
     color: #007bff;
 }
 
+/* Chay video */
+.video-container {
+    text-align: center; /* Canh giữa video */
+    margin: 20px 0; /* Khoảng cách trên và dưới video */
+}
+
+.video-container iframe {
+    max-width: 100%; /* Đảm bảo video responsive */
+    height: auto; /* Chiều cao tự động */
+}
+
+
 /* 固定页脚 */
 footer {
     position: fixed;
