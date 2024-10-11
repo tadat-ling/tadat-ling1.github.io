@@ -209,9 +209,10 @@ nav ul li a:hover {
 
 .embed-container {
     position: relative;
-    max-width: 100%; /* 确保宽度最大为 100% */
-    width: 800px; /* 根据需要设置宽度 */
+    max-width: 100%;
+    width: 800px;
     height: 450px;
+    margin: auto; /* 添加这行以实现水平居中 */
 }
 
 .embed-container iframe,
