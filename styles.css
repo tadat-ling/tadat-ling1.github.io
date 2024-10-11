@@ -1,8 +1,9 @@
 body {
-    font-family: Georgia, georgia;
+    font-family: 'Garamond', serif; /* 使用 Garamond 字体，并提供 serif 作为备选 */
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #000000; /* 黑色背景 */
+    color: #ffffff; /* 白色文本 */
 }
 
 header {
