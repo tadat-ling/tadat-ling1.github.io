@@ -209,7 +209,7 @@ nav ul li a:hover {
     height: 0;
     overflow: hidden;
     max-width: 100%; /* 确保宽度最大为 100% */
-    width: 800px; /* 根据需要设置宽度，约为正常 YouTube 大小 */
+    width: 1600px; /* 根据需要设置宽度，约为正常 YouTube 大小 */
 }
 
 .embed-container iframe,
