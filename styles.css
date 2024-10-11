@@ -7,6 +7,13 @@ body {
     color: #000000;
 }
 
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+
 /* 导航栏样式 */
 nav {
     background-color: #2c2c2c;
@@ -56,151 +63,134 @@ nav ul li a:hover {
 }
 
 
-/* About 页面头部 */
-.about-header {
+/* 头部样式 (About, Education, My Peki, Daily Life, Linguistics) */
+.about-header, .education-header, .peki-header, .life-header, .ling-header {
     background-color: #f6f6f6; /* 浅灰色背景 */
     color: #2c2c2c; /* 深灰色文本 */
     text-align: center;
     padding: 35px 0;
 }
 
-.about-header h1 {
+.about-header h1, .education-header h1, .peki-header h1, .life-header h1, .ling-header h1 {
     color: #2c2c2c; /* 深灰色文本 */
     font-size: 36px;
     margin: 0;
 }
 
-.about-header p {
+.about-header p, .education-header p, .peki-header p, .life-header p {
     color: #2c2c2c; /* 深灰色文本 */
     font-size: 17px;
     margin: 28px 5px 0;
 }
-
-/* Education 页面头部 */
-.education-header {
-    background-color: #f6f6f6; /* 浅灰色背景 */
-    color: #2c2c2c; /* 深灰色文本 */
-    text-align: center;
-    padding: 35px 0;
-}
-
-.education-header h1 {
-    color: #2c2c2c; /* 深灰色文本 */
-    font-size: 36px;
-    margin: 0;
-}
-
-.education-header p {
-    color: #2c2c2c; /* 深灰色文本 */
-    font-size: 17px;
-    margin: 28px 5px 0;
-}
-
-
-/* My Peki 页面头部 */
-.peki-header {
-    background-color: #f6f6f6; /* 浅灰色背景 */
-    color: #2c2c2c; /* 深灰色文本 */
-    text-align: center;
-    padding: 35px 0;
-}
-
-.peki-header h1 {
-    color: #2c2c2c; /* 深灰色文本 */
-    font-size: 36px;
-    margin: 0;
-}
-
-.peki-header p {
-    color: #2c2c2c; /* 深灰色文本 */
-    font-size: 17px;
-    margin: 28px 5px 0;
-}
-
-
-/* Daily Life 页面头部 */
-.life-header {
-    background-color: #f6f6f6; /* 浅灰色背景 */
-    color: #2c2c2c; /* 深灰色文本 */
-    text-align: center;
-    padding: 35px 0;
-}
-
-.life-header h1 {
-    color: #2c2c2c; /* 深灰色文本 */
-    font-size: 36px;
-    margin: 0;
-}
-
-.life-header p {
-    color: #2c2c2c; /* 深灰色文本 */
-    font-size: 17px;
-    margin: 28px 5px 0;
-}
-
 
 /* 自我介绍部分 */
-.about-description {
+.about-description, .education-description, .peki-description, .life-description {
     text-align: justify;
     color: #2c2c2c; /* 深灰色文本 */
-    padding: 20px 20px 100px; /* Thêm khoảng trống ở đầu, hai bên, cuối nội dung */
+    padding: 20px 20px 100px; /* 添加空间 */
     background-color: #ffffff;
 }
-.about-description p {
+
+.about-description p, .education-description p, .peki-description p, .life-description p {
     color: #2c2c2c; /* 深灰色文本 */
     font-size: 19px;
     margin: 8px 10px 0;
 }
 
-/* Education部分 */
-.education-description {
-    text-align: justify;
-    color: #2c2c2c; /* 深灰色文本 */
-    padding: 20px 20px 100px; /* Thêm khoảng trống ở đầu, hai bên, cuối nội dung */
-    background-color: #ffffff;
-}
-.education-description p {
-    color: #2c2c2c; /* 深灰色文本 */
-    font-size: 19px;
-    margin: 8px 10px 0;
-}
-
-/* My Peki部分 */
-.peki-description {
-    text-align: justify;
-    color: #2c2c2c; /* 深灰色文本 */
-    padding: 20px 20px 100px; /* Thêm khoảng trống ở đầu, hai bên, cuối nội dung */
-    background-color: #ffffff;
-}
-.peki-description p {
-    color: #2c2c2c; /* 深灰色文本 */
-    font-size: 19px;
-    margin: 8px 10px 0;
-}
-
-/* Daily Life部分 */
+/* Daily Life 特殊样式 */
 .life-description {
-    text-align: justify;
-    color: #2c2c2c; /* 深灰色文本 */
     text-indent: 30px; /* Thụt đầu dòng 30px */
-    padding: 20px 20px 100px; /* Thêm khoảng trống ở đầu, hai bên, cuối nội dung */
-    background-color: #ffffff;
 }
+
 .life-description h3 {
     color: #2c2c2c; /* 深灰色文本 */
     text-align: center;
     font-size: 23px;
     margin: 20px 10px; /* Giãn dòng trái, phải */
 }
-.life-description p {
-    color: #2c2c2c; /* 深灰色文本 */
-    font-size: 19px;
-    margin: 8px 10px 0;
+
+/* 搜索条样式 */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
+.search-bar input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 
-/* Thêm footer */
-    footer {
+.search-bar button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* 帖子样式 */
+.posts {
+    margin-bottom: 20px;
+}
+
+.post {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.post-image {
+    width: 150px; /* 或者您希望的宽度 */
+    height: auto;
+    margin-right: 15px;
+    border-radius: 8px; /* 添加圆角 */
+}
+
+.post-content {
+    flex: 1; /* 允许内容扩展 */
+}
+
+.post-link {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.post-meta {
+    margin-top: 5px;
+}
+
+.post-time {
+    font-size: 12px;
+    color: #666;
+}
+
+.post-excerpt {
+    font-size: 14px;
+}
+
+/* 分页样式 */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* 固定页脚 */
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -209,4 +199,3 @@ nav ul li a:hover {
     text-align: center;
     padding: 10px;
 }
-
