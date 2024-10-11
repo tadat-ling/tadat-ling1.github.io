@@ -40,6 +40,24 @@ nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.1); /* 可选：在悬停时添加背景颜色 */
 }
 
+/* 媒体查询：当屏幕宽度小于 768px 时，导航栏变为垂直排列 */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: left; /* 左对齐列表 */
+    }
+
+    nav ul li {
+        display: block; /* 列表项变为块级元素 */
+        margin: 10px 0; /* 增加上下间距 */
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 15px;
+        font-size: 18px; /* 可根据需要调整字体大小 */
+    }
+}
+
 
 /* About 页面头部 */
 .about-header {
