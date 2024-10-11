@@ -10,9 +10,8 @@ const pages = {
                 <p>tavandat@pku.edu.cn</p>
             </div>
             <div class="about-description">
-                <p1>Welcome to my personal website! ...</p1>
-                <p1>Welcome to my personal website! ...</p1>
-                <p1>Welcome to my personal website! ...</p1>
+                <p>Welcome to my personal website! ...</p>
+                <p>Coming soon...</p>
             </div>
         </section>
     `,
@@ -22,8 +21,8 @@ const pages = {
                 <h1>Education</h1>
             </div>
             <div class="education-description">
-                <p1>2020-2023: B.A. in Chinese Studies (High-quality Program), Hanoi University (Vietnam)</p1>
-                <p1>2023-now: M.A. in Linguistics and Applied Linguistics, Peking University (Mainland China)</p1>
+                <p>2020-2023: B.A. in Chinese Studies (High-quality Program), Hanoi University (Vietnam)</p>
+                <p>2023-now: M.A. in Linguistics and Applied Linguistics, Peking University (Mainland China)</p>
             </div>
         </section>
     `,
@@ -33,7 +32,8 @@ const pages = {
                 <h1>My Peki</h1>
             </div>
             <div class="education-description">
-                <p1>Coming soon. I'm gonna show my little cutie here ...</p1>
+                <p>Coming soon. </p>
+                <p>I'm gonna show my little cutie here ...</p>
             </div>
         </section>
     `,
@@ -43,7 +43,8 @@ const pages = {
                 <h1>Daily Life</h1>
             </div>
             <div class="life-description">
-                <p1>Coming soon. I'm gonna show my adorable friends here, and of course Taylor Swift ...</p1>
+                <p>Coming soon.</p>
+                <p>I'm gonna show my adorable friends here, and of course Taylor Swift ...</p>
             </div>
         </section>
     `
