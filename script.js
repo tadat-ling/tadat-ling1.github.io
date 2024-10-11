@@ -62,15 +62,6 @@ const pages = {
                 <h3>    The end</h3>
             </div>
         </section>
-
-        <style>
-            /* Căn đều đoạn văn và thụt đầu dòng */
-            .justify-indent {
-                text-align: justify;
-                text-indent: 15px; /* Thụt đầu dòng 15px */
-            }
-        </style>
-        
     `
 };
 
