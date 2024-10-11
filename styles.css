@@ -36,26 +36,21 @@ nav ul li a {
     background-color: #f6f6f6; /* 浅灰色背景 */
     color: #2c2c2c; /* 深灰色文本 */
     text-align: center;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .about-header h1 {
     color: #2c2c2c; /* 深灰色文本 */
     font-size: 36px;
-    margin: 0;
-}
-
-.about-header p {
-    color: #2c2c2c; /* 深灰色文本 */
-    font-size: 20px;
     margin: 50px 0;
 }
 
 .about-header p {
     color: #2c2c2c; /* 深灰色文本 */
-    font-size: 20px;
+    font-size: 18px;
     margin: 50px 0;
 }
+
 
 /* 自我介绍部分 */
 .about-description {
