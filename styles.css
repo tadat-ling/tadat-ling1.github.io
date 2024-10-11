@@ -9,7 +9,7 @@ body {
 
 /* 导航栏样式 */
 nav {
-    background-color: #f8f8f8;
+    background-color: #2c2c2c;
     padding: 20px;
 }
 
@@ -26,8 +26,8 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #333;
-    padding: 10px 20px;
+    color: #f1f1f1;
+    padding: 10px 5px;
     transition: box-shadow 0.3s ease; /* 添加过渡效果 */
 }
 
@@ -121,6 +121,30 @@ nav a:hover {
 
 /* 自我介绍部分 */
 .about-description {
+    text-align: center;
+    color: #2c2c2c; /* 深灰色文本 */
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/* Education部分 */
+.education-description {
+    text-align: center;
+    color: #2c2c2c; /* 深灰色文本 */
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/* My Peki部分 */
+.peki-description {
+    text-align: center;
+    color: #2c2c2c; /* 深灰色文本 */
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/* Daily Life部分 */
+.life-description {
     text-align: center;
     color: #2c2c2c; /* 深灰色文本 */
     padding: 20px;
