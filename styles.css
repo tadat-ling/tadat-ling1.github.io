@@ -1,13 +1,13 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
 
 header {
-    background: #007bff;
-    color: #fff;
+    background-color: #000000; /* 黑色背景 */
+    color: #ffffff; /* 白色文本，确保在黑色背景上可读 */
     padding: 20px;
     text-align: center;
 }
