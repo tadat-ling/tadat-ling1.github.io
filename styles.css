@@ -189,9 +189,11 @@ nav ul li a:hover {
 
 /* Daily Life部分 */
 .life-description {
-    text-align: left;
+    text-align: justify;
     color: #2c2c2c; /* 深灰色文本 */
+    text-indent: 15px; /* Thụt đầu dòng 15px */
     padding: 20px;
+    padding-bottom: 50px; /* Thêm khoảng trống giữa nội dung và footer */
     background-color: #ffffff;
 }
 .life-description h3 {
@@ -205,24 +207,7 @@ nav ul li a:hover {
     margin: 8px 10px 0;
 }
 
-<style>
-    /* Căn đều đoạn văn và thụt đầu dòng */
-    .justify-indent {
-        text-align: justify;
-        text-indent: 15px; /* Thụt đầu dòng 30px */
-    }
-
-    /* Thêm khoảng cách giữa nội dung và footer */
-    body {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh; /* Đảm bảo toàn bộ chiều cao của viewport */
-    }
-
-    main {
-        flex: 1; /* Chiếm không gian còn lại giữa header và footer */
-    }
-
+/* Thêm footer */
     footer {
     position: fixed;
     bottom: 0;
@@ -233,7 +218,3 @@ nav ul li a:hover {
     padding: 10px;
 }
 
-    .life-description {
-        padding-bottom: 50px; /* Thêm khoảng trống giữa nội dung và footer */
-    }
-</style>
