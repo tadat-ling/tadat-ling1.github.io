@@ -33,11 +33,11 @@ const pages = {
             </div>
             <div class="public-description">
                 <h3>Books and Translations</h3>
-                <p>Van Dat, Ta (translator). (2024). Những câu chuyện bồi dưỡng chỉ số IQ – AQ - MQ - EQ - LQ (Improving IQ – AQ - MQ - EQ - LQ for children through telling stories [5 volumes]). Hanoi: Youth Press. (from Mandarin Chinese into Vietnamese)</p>
-                <p>Van Dat, Ta; Le Thuy Anh, Pham. (2023). Chinh phục đề thi THPT Quốc gia Tiếng Trung khối D4 (A guide to Chinese test in the Vietnam High School Graduation&University Entrance Exam). Hanoi: Vietnam National University (Hanoi) Press. (written in Mandarin Chinese and Vietnamese) ISBN: 978-604-396-808-8</p>
+                <p> [2] Van Dat, Ta (translator). (2024). Những câu chuyện bồi dưỡng chỉ số IQ – AQ - MQ - EQ - LQ (Improving IQ – AQ - MQ - EQ - LQ for children through telling stories [5 volumes]). Hanoi: Youth Press. (from Mandarin Chinese into Vietnamese)</p>
+                <p> [1] Van Dat, Ta; Le Thuy Anh, Pham. (2023). Chinh phục đề thi THPT Quốc gia Tiếng Trung khối D4 (A guide to Chinese test in the Vietnam High School Graduation&University Entrance Exam). Hanoi: Vietnam National University (Hanoi) Press. (written in Mandarin Chinese and Vietnamese) ISBN: 978-604-396-808-8</p>
                 <h3>Presentation</h3>
-                <p>Van Dat, Ta. (2023).The relationship between the tone systems of Sino-Vietnamese and Mandarin Chinese (presented in Mandarin Chinese). 2023 Student Annual scientific research session, Dep. of Chinese Studies, Hanoi University.</p>
-                <p>Van Dat, Ta. (2022).Master Xuanzang's views on Buddhist scripture translation and their inspiration to students majored in Translation-Interpretation (presented in Vietnamese). 2022 Student Annual scientific research session, Dep. of Chinese Studies, Hanoi University. In collabration with Thi Phuong Thao, Thieu.</p>
+                <p> [2] Van Dat, Ta. (2023).The relationship between the tone systems of Sino-Vietnamese and Mandarin Chinese (presented in Mandarin Chinese). 2023 Student Annual scientific research session, Dep. of Chinese Studies, Hanoi University.</p>
+                <p> [1] Van Dat, Ta. (2022).Master Xuanzang's views on Buddhist scripture translation and their inspiration to students majored in Translation-Interpretation (presented in Vietnamese). 2022 Student Annual scientific research session, Dep. of Chinese Studies, Hanoi University. In collabration with Thi Phuong Thao, Thieu.</p>
             </div>
         </section>
     `,
