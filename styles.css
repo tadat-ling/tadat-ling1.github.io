@@ -200,7 +200,6 @@ nav ul li a:hover {
 .video-container {
     display: flex;
     justify-content: center; /* 水平居中 */
-    margin: 50px 20px 100px; /* 底部距离 footer 100px */
 }
 
 .embed-container {
