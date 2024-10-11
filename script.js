@@ -62,7 +62,40 @@ const pages = {
                 <h3>    The end</h3>
             </div>
         </section>
-    `
+    `,
+    ling: `
+    <section id="ling" class="ling-section">
+        <div class="ling-header">
+            <h1>Linguistics</h1>
+        </div>
+        <div id="posts">
+            <!-- Thanh tìm kiếm -->
+            <div class="search-bar">
+                <input type="text" placeholder="Find..." aria-label="Find">
+                <button type="submit">Find</button>
+            </div>
+            <!-- Bắt đầu phần post -->
+            <div class="post">
+                <div class="post-image">
+                    <img src="/Users/xiewenda/Downloads/question-mark.jpg" alt="Post Image 1">
+                </div>
+                <div class="post-content">
+                    <a href="link_to_post1">Title of Post 1</a>
+                    <p>[11/10/2024]</p>
+                    <p>Đoạn trích nội dung đầu tiên của bài viết ...</p>
+                </div>
+            </div>
+            <!-- Thêm nhiều post tương tự ở đây -->
+            <!-- Cuối cùng thêm thanh phân trang -->
+            <div class="pagination">
+                <a href="#">&laquo;</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">&raquo;</a>
+            </div>
+        </div>
+    </section>
 };
 
 // 获取内容容器
