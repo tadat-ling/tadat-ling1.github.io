@@ -1,6 +1,6 @@
 /* 全局样式 */
 body {
-    font-family: 'Computer Modern', serif;
+    font-family: 'Garamond', 'Times New Roman', serif;
     margin: 0;
     padding: 0;
     background-color: #ffffff;
@@ -10,7 +10,7 @@ body {
 /* 导航栏样式 */
 nav {
     background-color: #2c2c2c;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
 }
 
@@ -30,14 +30,14 @@ nav ul li {
 nav ul li a {
     color: #ffffff; /* 白色文本 */
     text-decoration: none;
-    font-size: 20px;
-    padding: 5px 10px; /* 为链接添加内边距 */
+    font-size: 18px;
+    padding: 18px 18px; /* 为链接添加内边距 */
     transition: box-shadow 0.3s ease; /* 添加过渡效果 */
 }
 
 /* 鼠标悬停时的效果 */
 nav ul li a:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* 添加阴影效果 */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5); /* 增加模糊半径，使阴影边缘圆滑 */
     background-color: rgba(255, 255, 255, 0.1); /* 可选：在悬停时添加背景颜色 */
 }
 
