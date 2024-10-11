@@ -7,31 +7,24 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hamburger icon (for mobile screens) -->
-    <div class="hamburger" onclick="toggleMenu()">
-        &#9776; <!-- HTML code for the hamburger icon -->
-    </div>
-    
     <!-- 导航栏 -->
-    <nav id="navbar">
+    <nav>
         <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#peki">My Peki</a></li>
-            <li><a href="#life">Daily Life</a></li>
+            <li><a href="#" data-target="about">ABOUT ME</a></li>
+            <li><a href="#" data-target="education">EDUCATION</a></li>
+            <li><a href="#" data-target="peki">MY PEKI</a></li>
+            <li><a href="#" data-target="life">DAILY LIFE</a></li>
         </ul>
     </nav>
 
-    <!-- JavaScript to toggle the navigation -->
-    <script>
-        function toggleMenu() {
-            var navbar = document.getElementById('navbar');
-            if (navbar.style.display === 'block') {
-                navbar.style.display = 'none';
-            } else {
-                navbar.style.display = 'block';
-            }
-        }
-    </script>
+    <!-- 页面内容容器 -->
+    <div id="content"></div>
+
+    <!-- 固定页脚 -->
+    <footer>
+        <p>&copy; 2024 Dat Ta | Peking University</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
