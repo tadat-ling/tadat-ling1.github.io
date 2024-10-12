@@ -117,7 +117,7 @@ nav ul li a:hover {
 .search-bar {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .search-bar input {
@@ -138,7 +138,7 @@ nav ul li a:hover {
 
 /* 帖子样式 */
 .posts {
-    margin-bottom: 20px;
+    margin: 0 20px 20px;
 }
 
 .post {
