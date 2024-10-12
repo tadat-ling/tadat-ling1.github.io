@@ -68,7 +68,7 @@ const pages = {
         <div id="posts">
             <!-- Thanh tìm kiếm -->
             <div class="search-bar">
-                <input type="text" placeholder="Find..." aria-label="Find">
+                <input type="text" placeholder="Search..." aria-label="Search">
                 <button type="submit">Find</button>
             </div>
             <!-- Bắt đầu phần post -->
