@@ -63,35 +63,35 @@ nav ul li a:hover {
 }
 
 
-/* 头部样式 (About, Education, My Peki, Daily Life, Linguistics) */
-.about-header, .education-header, .public-header, .personal-header, .ling-header {
+/* 头部样式 (About, Education, Personal, Resource) */
+.about-header, .education-header, .public-header, .personal-header, .resource-header {
     background-color: #f6f6f6; /* 浅灰色背景 */
     color: #2c2c2c; /* 深灰色文本 */
     text-align: center;
     padding: 35px 0;
 }
 
-.about-header h1, .education-header h1, .public-header h1, .personal-header h1, .ling-header h1 {
+.about-header h1, .education-header h1, .public-header h1, .personal-header h1, .resource-header h1 {
     color: #2c2c2c; /* 深灰色文本 */
     font-size: 36px;
     margin: 0;
 }
 
-.about-header p, .education-header p, .public-header p, .personal-header p, .ling-header p {
+.about-header p, .education-header p, .public-header p, .personal-header p, .resource-header p {
     color: #2c2c2c; /* 深灰色文本 */
     font-size: 17px;
     margin: 28px 5px 0;
 }
 
 /* 内容部分 */
-.about-description, .education-description, .public-description, .personal-description, .ling-description {
+.about-description, .education-description, .public-description, .personal-description, .resource-description {
     text-align: justify;
     color: #2c2c2c; /* 深灰色文本 */
     padding: 20px 20px 100px; /* 添加空间 */
     background-color: #ffffff;
 }
 
-.about-description p, .education-description p, .public-description p, .personal-description p, .ling-description p {
+.about-description p, .education-description p, .public-description p, .personal-description p, .resource-description p {
     color: #2c2c2c; /* 深灰色文本 */
     font-size: 19px;
     margin: 8px 10px 0;
