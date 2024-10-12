@@ -49,26 +49,14 @@ const pages = {
             </div>
         </section>
     `,
-    peki: `
-        <section id="peki" class="peki-section">
-            <div class="peki-header">
-                <h1>My Peki</h1>
+    personal: `
+        <section id="personal" class="personal-section">
+            <div class="personal-header">
+                <h1>Personal</h1>
             </div>
-            <div class="education-description">
+            <div class="personal-description">
                 <p>Coming soon. </p>
-                <p>I'm gonna show my little cutie here ...</p>
-            </div>
-        </section>
-    `,
-    life: `
-        <section id="life" class="life-section">
-            <div class="life-header">
-                <h1>Daily Life</h1>
-            </div>
-            <div class="life-description">
-                <p>Coming soon.</p>
-                <p>I'm gonna show my adorable friends here, and of course Taylor Swift ...</p>
-                <p> </p>
+                <p>I'm gonna show my little cutie Peki, my adorable friends here... (and of course Taylor Swift)</p>
             </div>
         </section>
     `,
@@ -87,14 +75,14 @@ const pages = {
             <div id="ling-content">
                 <div class="post">
                     <div class="post-image">
-                        <img src="/Users/xiewenda/Downloads/question-mark.jpg" alt="Mô tả hình ảnh">
+                        <img src="/Users/xiewenda/Downloads/question-mark.jpg" alt="Picture">
                     </div>
                 <div class="post-content">
-                    <a href="linguistics_article1.html" class="post-link">Tựa Đề Bài Viết</a>
+                    <a href="linguistics_article1.html" class="post-link">Demo</a>
                     <div class="post-meta">
                         <span class="post-time">Ngày đăng: 12/10/2024</span>
                     </div>
-                    <p class="post-excerpt">Đây là phần tóm tắt nội dung của bài viết...</p>
+                    <p class="post-excerpt">Abstract of this post...</p>
                 </div>
             </div>
         </div>
