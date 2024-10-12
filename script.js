@@ -60,10 +60,10 @@ const pages = {
             </div>
         </section>
     `,
-    ling: `
-    <section id="ling" class="ling-section">
-        <div class="ling-header">
-            <h1>Linguistics</h1>
+    resource: `
+    <section id="resource" class="resource-section">
+        <div class="resource-header">
+            <h1>Resource</h1>
         </div>
         <div id="posts">
             <!-- Thanh tìm kiếm -->
@@ -72,13 +72,13 @@ const pages = {
                 <button type="submit">Find</button>
             </div>
             <!-- Bắt đầu phần post -->
-            <div id="ling-content">
+            <div id="resource-content">
                 <div class="post">
                     <div class="post-image">
                         <img src="/Users/xiewenda/Downloads/question-mark.jpg" alt="Picture">
                     </div>
                 <div class="post-content">
-                    <a href="linguistics_article1.html" class="post-link">Demo</a>
+                    <a href="demo.html" class="post-link">Demo</a>
                     <div class="post-meta">
                         <span class="post-time">Posted on: 12/10/2024</span>
                     </div>
