@@ -138,12 +138,13 @@ nav ul li a:hover {
 
 /* 帖子样式 */
 .posts {
-    margin: 0 20px 20px;
+    margin-bottom: 20px;
 }
 
 .post {
     display: flex;
-    margin: 0 20px 20px;
+    margin-bottom: 20px;
+    width: 70%;
     border: 1px solid #ddd;
     padding: 10px;
     border-radius: 8px;
