@@ -138,6 +138,8 @@ nav ul li a:hover {
 
 /* 帖子样式 */
 .posts {
+    display: flex;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
