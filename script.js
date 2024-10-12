@@ -80,7 +80,7 @@ const pages = {
                 <div class="post-content">
                     <a href="linguistics_article1.html" class="post-link">Demo</a>
                     <div class="post-meta">
-                        <span class="post-time">Ngày đăng: 12/10/2024</span>
+                        <span class="post-time">Posted on: 12/10/2024</span>
                     </div>
                     <p class="post-excerpt">Abstract of this post...</p>
                 </div>
